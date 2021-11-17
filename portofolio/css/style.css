@@ -1,23 +1,47 @@
 
 *{
     box-sizing: border-box;
+
+}
+    
+body{
+    background-image: url("portofolio/images/car3.jpg");
 }
 
+
 #main{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     height: 100vh;
-}
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 20px;
+    gap: 30px;
+    
+   
+    }
+    
+    
+
 
 #name{
     background-color: red;
+    text-align: center;
 }
 #profession{
+    display: absolute;
 background-color: blue;
+text-align: center;
 }
 
 #content{
+   
+    display: flex;
     background-color: pink;
+    flex: 2;
+    flex-direction: row;
+    gap: 60px;
 }
 #socialprofile{
     background-color: orange ;
@@ -25,8 +49,53 @@ background-color: blue;
 }
 #portfolio{
     background-color: yellowgreen ;
+    display: flex;
+    flex:2;
+    flex-wrap: wrap;
+    flex-direction: row;
     
+    margin-right: 30px;
+    gap: 50px;
+    justify-content: space-between;
 }
+
+#portfolio1{
+    background-color: purple ;
+    width: 500px;
+    height: 500px;
+}
+#portfolio2{
+    background-color: maroon;
+    width: 500px;
+    height: 500px;
+}
+#portfolio3{
+    background-color: orchid;
+    width: 500px;
+    height: 500px;
+}
+
+#portfolio4{
+    background-color: orchid;
+    width: 500px;
+    height: 500px;
+}
+#portfolio5{
+    background-color: orchid;
+    width: 500px;
+    height: 500px;
+}
+#portfolio6{
+    background-color: orchid;
+    width: 500px;
+    height: 500px;
+}
+#portfolio7{
+    background-color: orchid;
+    width: 500px;
+    height: 500px;
+}
+
 
 #contact{
     background-color: yellow ;
