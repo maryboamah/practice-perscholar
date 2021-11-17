@@ -1,0 +1,44 @@
+
+*{
+    box-sizing: border-box;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#name{
+    background-color: red;
+}
+#profession{
+background-color: blue;
+}
+
+#content{
+    background-color: pink;
+}
+#socialprofile{
+    background-color: orange ;
+    
+}
+#portfolio{
+    background-color: yellowgreen ;
+    
+}
+
+#contact{
+    background-color: yellow ;
+    
+}
+
+#aboutme{
+    background-color: tomato ;
+    
+}
+
+#footer{
+    background-color: darkgreen ;
+    
+}
