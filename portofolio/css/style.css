@@ -5,12 +5,13 @@
 }
     
 body{
-    background-image: url("images/car3.jpg");
+    background-image: url("car6.jpg");
+    background-attachment: fixed;
 }
 
 
 #main{
-    margin-top: 50px;
+    
     display: flex;
     flex-direction: column;
     
@@ -18,8 +19,9 @@ body{
     margin-top: 20px;
     padding-top: 20px;
     gap: 30px;
-    background-image: url("car6.jpg");
+    background-color: rgb(218, 209, 217, 0.63);
     background-attachment: fixed;
+    
    
     }
     
@@ -43,11 +45,18 @@ text-align: center;
     flex: 2;
     flex-direction: row;
     gap: 60px;
-}
-#socialprofile{
-    background-color: orange ;
     
 }
+#socialprofile{
+    background-color: rgb(180, 122, 15,0.63) ;
+    
+}
+
+
+
+/*Portofolio Css*/
+
+
 #portfolio{
     
     display: flex;
@@ -60,44 +69,136 @@ text-align: center;
     justify-content: space-between;
 }
 
+/*portfolio 1*/
+
 #portfolio1{
     
+    background:rgb(41, 62, 23,0.63);
+    
     width: 500px;
-    height: 500px;
-    background: rgba(110, 69, 206, 0.63);
+    height: 500px; 
 }
+
+#img1{
+    background-image: url("car8.jpg");
+}
+
+#portfolio1 p{
+    background-color: rgb(41, 62, 23,0.9) ;
+}
+
+#portfolio1:hover{
+    
+    background:none;
+}
+#portfolio2:hover{
+    
+    background:none;
+}
+
+
+#portfolio2:hover{
+    
+    background:none;
+}
+
+/*portfolio 2*/
+
 #portfolio2{
-    background-image: url("car3.jpg");
-    background-color: rgb(182, 15, 15, 0.60);
+    
+    background-color: rgb(212, 125, 159, 0.63);
     width: 500px;
     height: 500px;
+    background-image: url();
 }
+#portfolio2 p{
+    background-color: rgb(212, 125, 159, 1);
+}
+
+/*portfolio 3*/
+
 #portfolio3{
-    background-color: rgb(189, 78, 185, 0.63);
+    background-color: rgb(25, 56, 89, 0.63);
     width: 500px;
     height: 500px;
 }
+#portfolio3 p{
+    background-color: rgb(25, 56, 89,1);
+}
+
+/*portfolio 4*/
 
 #portfolio4{
     background-color: rgba(97, 91, 189, 0.63);
     width: 500px;
     height: 500px;
 }
+#portfolio4 p{
+    background-color: rgba(97, 91, 189, 1);
+}
+
+
+/*portfolio 5*/
 #portfolio5{
     background-color: rgb(137, 218, 112, 0.63);
     width: 500px;
     height: 500px;
 }
+#portfolio5 p{
+    background-color: rgb(137, 218, 112, 1);
+}
+
+/*portfolio 6*/
 #portfolio6{
     background-color: rgb(218, 209, 217, 0.63);
     width: 500px;
     height: 500px;
 }
+#portfolio6 p{
+    background-color: rgb(218, 209, 217, 1);
+}
+
+
+
+/*portfolio 7*/
 #portfolio7{
     background-color: rgb(224, 226, 104, 0.63);
     width: 500px;
     height: 500px;
 }
+#portfolio7 p{
+    background-color: rgb(224, 226, 104, 1);
+}
+
+
+/*portfolio 8*/
+#portfolio8{
+    background-color: rgba(49, 127, 158, 0.63);
+    width: 500px;
+    height: 500px;
+}
+#portfolio8 p{
+    background-color: rgba(49, 127, 158, 1);
+}
+
+/*portfolio 9*/
+#portfolio9{
+    background-color: rgba(165, 47, 126, 0.63);
+    width: 500px;
+    height: 500px;
+}
+#portfolio9 p{
+    background-color: rgba(165, 47, 126, 1);
+
+}
+
+/*Portfolio items */
+
+.potitem{
+    height: 100px;
+    margin-top: 400px;
+}
+
 
 
 #contact{
@@ -113,4 +214,49 @@ text-align: center;
 #footer{
     background-color: darkgreen ;
     
+}
+
+/*Hover for portfolio*/
+#portfolio1:hover{
+    
+    background:none;
+}
+#portfolio2:hover{
+    
+    background:none;
+}
+
+
+#portfolio3:hover{
+    
+    background:none;
+}
+
+#portfolio4:hover{
+    
+    background:none;
+}
+#portfolio5:hover{
+    
+    background:none;
+}
+
+
+#portfolio6:hover{
+    
+    background:none;
+}
+#portfolio7:hover{
+    
+    background:none;
+}
+#portfolio8:hover{
+    
+    background:none;
+}
+
+
+#portfolio9:hover{
+    
+    background:none;
 }
