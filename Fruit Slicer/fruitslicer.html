@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fruit Slicer</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+</head>
+
+<body>
+  <div class="maincontainer">
+    <div class="gamecontainer">
+
+
+      <div class="scoreandlife">
+        <div class="life"></div>
+        <div class="score">score: <span id="myscore">0</span></div>
+
+
+      </div>
+
+
+      <div class="gameboard">
+        <img class="fruits" alt="fruits" id="fruit1">
+        <div class="alert"></div>
+      </div>
+      <div class="boxshadow">
+        <div class="fruitcatch ">catch fruits</div>
+      </div>
+
+
+
+      <div class="reset">Start Game</div>
+
+    </div>
+  </div>
+  <audio id="slicesound">
+    <source src="audio/fruit-slice.mp3">
+    </source>
+    <source src="audio/fruit-slice.ogg">
+    </source>
+  </audio>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="jquery.js"></script>
+
+
+</body>
+
+</html>
