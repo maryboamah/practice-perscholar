@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.win {
+  position: absolute;
+  top: 500px;
+  left: 200px;
+  font-size: 8em;
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
